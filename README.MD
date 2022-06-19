@@ -1,30 +1,33 @@
-#**Лабараторная #1**
+# **Lab #1**
 
-Универсальный encoding/decoding класс aes256cbc.py лежит в папке lab-1
+The universal encoding/decoding class aes256cbc.py is in the lab-1 folder
 
-Чтобы закодировать сообщение одной строкой - испоьзуется метод `encodeLinear`, 
-в соответствии для него есть противоположный метод `decodeLinear`, который принимает
-ранее закодированное сообщение
+To encode a message in one line, use the `encodeLinear` method,
+according to it there is an opposite method `decodeLinear` which takes
+previously encoded message
 
-Также присутствуют обычные методы `encode/decode`
+The usual `encode/decode` methods are also present.
 
-**Для запуска требуется `pip install Crypto`**
-
-
-#**Лабараторная #2**
-
-**Задание #1**
-
-Запустить `aes128ecb.py`. Результат перебора отобразиться в консоли
-
-**Задание #2**
-
-Запустить `aes-128-cbc-mac.py`. Результат перебора отобразиться в консоли
+**Requires:** 
+```sh
+pip install Crypto
+```
 
 
-#**Лабараторная #3**
+# **Lab #2**
 
-Запустить `hellman.py`. Результат перебора отобразиться в консоли
+**Exercise 1**
+
+Run `aes128ecb.py`. The result of the enumeration will be displayed in the console
+
+**Task #2**
+
+Run `aes-128-cbc-mac.py`. The result of the enumeration will be displayed in the console
 
 
-#**Лабараторный Linux будут лежать в папках linux-lab**
+# **Lab #3**
+
+Run `hellman.py`. The result of the enumeration will be displayed in the console
+
+
+# **Lab Linux will be in the linux-lab folders**
